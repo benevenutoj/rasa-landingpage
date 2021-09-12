@@ -2,41 +2,47 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 70%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     margin: 0 auto;
 }
 
-.pagina {
-    height: 10%;
-}
-
-.logorasa {
-    float: left;
+.opcoes-menu {
+    list-style: none;
+    float: right;
+    text-align: center;
+    margin: 5px auto;
 }
 
 .top-menu {
     background-color: white;
     width: 100%;
     height: 70px;
-    color: white;
 }
 
-#docs {
-    padding-right: 100px;
+.top-menu img {
+    float: left;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding-left: 25px;
+    text-align: center;
 }
 
-.opcoes-menu {
-    list-style: none;
-    float: right;
+.opcoes-menu button {
+    background-color: #850cf2;
+    border-radius: 12px;
+    padding: 10px 20px;
 }
 
-.getstart {
-    float: right;
+.opcoes-menu li button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
 }
 
 .opcoes-menu li {
     position: relative;
-    float: left;
+    float: right;
     padding-right: 40px;
     padding-top: 25px;
 }
@@ -53,8 +59,60 @@ body {
     display: block;
 }
 
-#icon-rasa {
-    width: 80px;
-    height: 80px;
-    padding-left: 20px;
+.main-cont {
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    color: white;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.main-cont h1 {
+    color: black;
+    font-size: 48px;
+}
+
+.main-cont p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: grey;
+    font-size: 18px;
+}
+
+.divtext {
+    background-color: white;
+    width: 35%;
+    height: auto;
+    font-size: 0;
+    margin-top: 250px;
+    margin-left: 150px;
+    display: inline-block;
+    text-align: start;
+}
+
+.main-cont img {
+    display: inline-block;
+    float: right;
+    width: 400px;
+    height: 550px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.divtext button {
+    background-color: #850cf2;
+    border-radius: 12px;
+    padding: 10px 20px;
+    float: left;
+}
+
+.divtext button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.divtext button a:hover {
+    color: #111111;
 }
